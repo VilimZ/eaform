@@ -5,7 +5,7 @@ var modal = $('#modalDialog');
 var btn = $("#mbtn");
 
 // Get the <span> element that closes the modal
-var span = $(".close2");
+var span = $(".close");
 
 $(document).ready(function(){
     // When the user clicks the button, open the modal 
@@ -21,7 +21,7 @@ $(document).ready(function(){
 
 // When the user clicks anywhere outside of the modal, close it
 $('body').bind('click', function(e){
-    if($(e.target).hasClass("modal2")){
+    if($(e.target).hasClass("modal")){
         modal.fadeOut();
     }
 });
