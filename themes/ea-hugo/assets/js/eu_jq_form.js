@@ -1,3 +1,4 @@
+console.log('This site AAAAAAAAAAAAA.');
 // Get the modal
 var modal = $('#modalDialog');
 
