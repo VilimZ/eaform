@@ -1,28 +1,34 @@
 console.log('This site AAAAAAAAAAAAA.');
-// Get the modal
-var modal = $('#modalDialog');
 
-// Get the button that opens the modal
-var btn = $("#mbtn");
+(function($) {
+    "use strict";
+        $(document).ready(function() {
+                $('.modal-link').on('click', function() {
+                $('body').addClass("modal-open");
+            });
+            $('.close-modal').on('click', function() {
+                $('body').removeClass("modal-open");
+            });
+        });
+}(jQuery));
 
-// Get the <span> element that closes the modal
-var span = $(".close");
 
-$(document).ready(function(){
-    // When the user clicks the button, open the modal 
-    btn.on('click', function() {
-        modal.show();
+/*
+$(function() {
+    $("#popup-trigger").click(function() {
+      $('#popup-modal').show();
     });
-    
-    // When the user clicks on <span> (x), close the modal
-    span.on('click', function() {
-        modal.fadeOut();
+  
+    $(".close").click(function() {
+      $("#popup-modal").fadeOut();
     });
-});
+  
+    $("#popup-modal").click(function () {
+      $("#popup-modal").fadeOut();
+    }).children().click(function () {
+      return false;
+    });
+  });
 
-// When the user clicks anywhere outside of the modal, close it
-$('body').bind('click', function(e){
-    if($(e.target).hasClass("modal")){
-        modal.fadeOut();
-    }
-});
+
+ */
