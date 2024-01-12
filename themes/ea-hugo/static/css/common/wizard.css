@@ -10,7 +10,7 @@ body {
   .wizard-content-left {
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.45);
-    background-image: url("/img/meeteng-room.jpg");
+    background-image: url("../../img/meeteng-room.jpg");
     background-position: center center;
     background-size: cover;
     height: 100vh;
