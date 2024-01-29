@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Service",
+        "duration": 30,
+        "price": 0,
+        "currency": "Default",
+        "description": "Default",
+        "location": "Default",
+        "availabilitiesType": "flexible",
+        "attendantsNumber": 1,
+        "categoryId": 1
+    },
+    {
+        "id": 2,
+        "name": "Aspose EU Sales Support - 60m",
+        "duration": 60,
+        "price": 0,
+        "currency": "Default",
+        "description": "Default",
+        "location": "Default",
+        "availabilitiesType": "flexible",
+        "attendantsNumber": 2,
+        "categoryId": 1
+    }
+]

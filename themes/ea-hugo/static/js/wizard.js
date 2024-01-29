@@ -1,4 +1,13 @@
-jQuery(document).ready(function() {
+
+
+
+
+
+
+
+
+
+/* jQuery(document).ready(function() {
 	// click on next button
 	jQuery('.form-wizard-next-btn').click(function() {
 		var parentFieldset = jQuery(this).parents('.wizard-fieldset');
@@ -122,4 +131,4 @@ function slideUp(element, duration = 400) {
   // Primjer upotrebe
   const myElement = document.getElementById('myElement');
   slideUp(myElement, 500);
-  
+   */
