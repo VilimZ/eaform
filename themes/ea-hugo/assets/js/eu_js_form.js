@@ -11,14 +11,14 @@ const uriAppointments = 'https://appointments.aspose.com/index.php/api/v1/servic
 const uriLocal =  'http://easyappointments.local/index.php/api/v1/services/';
 const uriFile  =  './services.json';
 
-const credentials = `${username2}:${password2}`;
+const credentials = `${username}:${password}`;
 const encodedCredentials = btoa(credentials);
 const headers2 = new Headers();
 
 const batchTrack = document.getElementById("select-service");
 console.log({ batchTrack });
 const getPost = async () => {
-  const response = await fetch(uriLocal, {
+  const response = await fetch(uriAppointments, {
     credentials: 'include',
     method: 'GET',
     mode: 'no-cors',
