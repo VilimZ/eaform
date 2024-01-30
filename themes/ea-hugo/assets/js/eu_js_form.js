@@ -2,7 +2,10 @@
 *
 *
 */
-
+const username = 'janedoe';
+const password = 'Mrkva123';
+const username2 = 'vilimtelnet';
+const password2 = '12345678';
 
 const uriAppointments = 'https://appointments.aspose.com/index.php/api/v1/services';
 const uriLocal =  'http://easyappointments.local/index.php/api/v1/services/';
@@ -15,7 +18,7 @@ const headers2 = new Headers();
 const batchTrack = document.getElementById("select-service");
 console.log({ batchTrack });
 const getPost = async () => {
-  const response = await fetch(uriAppointments, {
+  const response = await fetch(uriFile, {
     credentials: 'include',
     method: 'GET',
     mode: 'no-cors',
