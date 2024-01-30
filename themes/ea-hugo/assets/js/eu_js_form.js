@@ -3,10 +3,7 @@
 *
 */
 
-const username = 'janedoe';
-const password = 'Mrkva123';
-const username2 = 'vilimtelnet';
-const password2 = '12345678';
+
 const uriAppointments = 'https://appointments.aspose.com/index.php/api/v1/services';
 const uriLocal =  'http://easyappointments.local/index.php/api/v1/services/';
 const uriFile  =  './services.json';
