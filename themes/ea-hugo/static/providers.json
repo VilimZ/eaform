@@ -1,0 +1,203 @@
+[
+    {
+        "id": 2,
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "email": "vililm_zovko@hotmail.com",
+        "mobile": "",
+        "phone": "+1 (000) 000-0000",
+        "address": "",
+        "city": "",
+        "state": "",
+        "zip": "",
+        "notes": "",
+        "timezone": "UTC",
+        "services": [
+            "1",
+            "2"
+        ],
+        "settings": {
+            "username": "janedoe",
+            "notifications": true,
+            "calendarView": "default",
+            "googleSync": false,
+            "googleCalendar": null,
+            "googleToken": null,
+            "syncFutureDays": 90,
+            "syncPastDays": 30,
+            "workingPlan": {
+                "monday": {
+                    "start": "09:00",
+                    "end": "18:00",
+                    "breaks": [
+                        {
+                            "start": "14:30",
+                            "end": "15:00"
+                        }
+                    ]
+                },
+                "tuesday": {
+                    "start": "09:00",
+                    "end": "18:00",
+                    "breaks": [
+                        {
+                            "start": "14:30",
+                            "end": "15:00"
+                        }
+                    ]
+                },
+                "wednesday": {
+                    "start": "09:00",
+                    "end": "18:00",
+                    "breaks": [
+                        {
+                            "start": "14:30",
+                            "end": "15:00"
+                        }
+                    ]
+                },
+                "thursday": {
+                    "start": "09:00",
+                    "end": "18:00",
+                    "breaks": [
+                        {
+                            "start": "14:30",
+                            "end": "15:00"
+                        }
+                    ]
+                },
+                "friday": {
+                    "start": "09:00",
+                    "end": "18:00",
+                    "breaks": [
+                        {
+                            "start": "14:30",
+                            "end": "15:00"
+                        }
+                    ]
+                },
+                "saturday": {
+                    "start": "09:00",
+                    "end": "18:00",
+                    "breaks": [
+                        {
+                            "start": "14:30",
+                            "end": "15:00"
+                        }
+                    ]
+                },
+                "sunday": {
+                    "start": "09:00",
+                    "end": "18:00",
+                    "breaks": [
+                        {
+                            "start": "14:30",
+                            "end": "15:00"
+                        }
+                    ]
+                }
+            },
+            "workingPlanExceptions": []
+        }
+    },
+    {
+        "id": 7,
+        "firstName": "Aspose",
+        "lastName": "Sales Support",
+        "email": "josip.orec@aspose.com",
+        "mobile": "",
+        "phone": "+44 141 628 8900",
+        "address": "",
+        "city": "",
+        "state": "",
+        "zip": "",
+        "notes": "",
+        "timezone": "UTC",
+        "services": [
+            "2"
+        ],
+        "settings": {
+            "username": "aspose_sales",
+            "notifications": false,
+            "calendarView": "default",
+            "googleSync": false,
+            "googleCalendar": null,
+            "googleToken": null,
+            "syncFutureDays": 90,
+            "syncPastDays": 30,
+            "workingPlan": {
+                "monday": {
+                    "start": "09:00",
+                    "end": "18:00",
+                    "breaks": [
+                        {
+                            "start": "14:30",
+                            "end": "15:00"
+                        }
+                    ]
+                },
+                "tuesday": {
+                    "start": "09:00",
+                    "end": "18:00",
+                    "breaks": [
+                        {
+                            "start": "14:30",
+                            "end": "15:00"
+                        }
+                    ]
+                },
+                "wednesday": {
+                    "start": "09:00",
+                    "end": "18:00",
+                    "breaks": [
+                        {
+                            "start": "14:30",
+                            "end": "15:00"
+                        }
+                    ]
+                },
+                "thursday": {
+                    "start": "09:00",
+                    "end": "18:00",
+                    "breaks": [
+                        {
+                            "start": "14:30",
+                            "end": "15:00"
+                        }
+                    ]
+                },
+                "friday": {
+                    "start": "09:00",
+                    "end": "18:00",
+                    "breaks": [
+                        {
+                            "start": "14:30",
+                            "end": "15:00"
+                        }
+                    ]
+                },
+                "saturday": {
+                    "start": "09:00",
+                    "end": "18:00",
+                    "breaks": [
+                        {
+                            "start": "14:30",
+                            "end": "15:00"
+                        }
+                    ]
+                },
+                "sunday": {
+                    "start": "09:00",
+                    "end": "18:00",
+                    "breaks": [
+                        {
+                            "start": "14:30",
+                            "end": "15:00"
+                        }
+                    ]
+                }
+            },
+            "workingPlanExceptions": []
+        }
+    }
+]
