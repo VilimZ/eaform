@@ -2,7 +2,10 @@
 *
 *
 */
-
+const username = '';
+const password = '';
+const username2 = '';
+const password2 = '';
 
 const uriAppointments = 'https://appointments.aspose.com/index.php/api/v1/services';
 const uriLocal =  'http://easyappointments.local/index.php/api/v1/services/';
